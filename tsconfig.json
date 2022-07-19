@@ -15,6 +15,7 @@
     "resolveJsonModule": true,
     "rootDir": "src",
     "importHelpers": true,
+    //"importsNotUsedAsValues": "error",
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -38,9 +39,9 @@
       "DOM.Iterable"
     ],
     "moduleResolution": "node",
-    "strict": false, // false
+    "strict": false,
     "noImplicitAny": false
   },
-  "include": ["src/**/*", "eslint-config"],
+  "include": ["**/*.ts", "**/*.tsx", "eslint-config"], //REACT = ["src/**/*", "eslint-config"] - NEXTJS = ["**/*.ts", "**/*.tsx", "eslint-config"]
   "exclude": ["node_modules", "build", "dist", "lib", ".eslintrc.js", "eslint-config"]
 }
