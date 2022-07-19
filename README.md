@@ -24,3 +24,7 @@ yarn add --dev typescript @types/react @types/node
 ```
 
 ## SASS
+[sass](https://nextjs.org/docs/basic-features/built-in-css-support)
+```bash
+npm install --save-dev sass
+```
