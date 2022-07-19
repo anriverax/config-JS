@@ -8,7 +8,7 @@
 npx create-next-app name --use-npm --ts
 ```
 
-## Install TypeScript
+## TypeScript
 Add [tsconfig.json](https://github.com/anriverax/config-JS/blob/main/tsconfig.json) file => `The tsconfig.json file indicates that you're working TypeScript`
 
 [nextjs.org](https://nextjs.org/learn/excel/typescript/create-tsconfig)
@@ -22,3 +22,5 @@ If you’re using Yarn
 ```bash
 yarn add --dev typescript @types/react @types/node
 ```
+
+## SASS
