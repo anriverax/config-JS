@@ -32,7 +32,7 @@ npm install --save-dev sass
 
 Customizing Sass Options
 
-`next.config.js file`
+In your next.config.js file
 ```bash
 const path = require('path')
 
