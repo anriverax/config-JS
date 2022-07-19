@@ -28,3 +28,17 @@ yarn add --dev typescript @types/react @types/node
 ```bash
 npm install --save-dev sass
 ```
+
+
+Customizing Sass Options
+
+`next.config.js file`
+```bash
+const path = require('path')
+
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'path')], //path = folder name where its your .sass / .scss files
+  },
+}
+```
