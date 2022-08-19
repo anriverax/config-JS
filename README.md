@@ -108,3 +108,5 @@ npm i --save-dev eslint-import-resolver-typescript
 ```bash
 npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import eslint-import-resolver-typescript --save-dev
 ```
+
+## Ttailwindcss
