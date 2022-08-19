@@ -112,7 +112,7 @@ npm i --save-dev eslint-import-resolver-typescript
 npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import eslint-import-resolver-typescript --save-dev
 ```
 
-## Tailwindcss
+# Tailwindcss (optional)
 [Tailwindcss with nextJs](https://tailwindcss.com/docs/guides/nextjs)
 [Tailwindcss - using-postcss](https://tailwindcss.com/docs/installation/using-postcss)
 ```bash
