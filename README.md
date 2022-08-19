@@ -110,6 +110,8 @@ npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-p
 ```
 
 ## Tailwindcss
+[Tailwindcss with nextJs](https://tailwindcss.com/docs/guides/nextjs)
+[Tailwindcss - using-postcss](https://tailwindcss.com/docs/installation/using-postcss)
 ```bash
 npm install -D tailwindcss postcss autoprefixer
 ```
