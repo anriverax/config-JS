@@ -35,6 +35,9 @@ Customizing Sass Options - (In your next.config.js file)
 const path = require('path')
 
 module.exports = {
+  modules: true,
+  reactStrictMode: true,
+  swcMinify: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'path')], //path = folder name where its your .sass / .scss files
   },
