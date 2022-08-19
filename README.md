@@ -109,4 +109,41 @@ npm i --save-dev eslint-import-resolver-typescript
 npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import eslint-import-resolver-typescript --save-dev
 ```
 
-## Ttailwindcss
+## Tailwindcss
+```bash
+npm install -D tailwindcss postcss autoprefixer
+```
+
+Add Tailwind to your PostCSS configuration
+Add tailwindcss and autoprefixer to your postcss.config.js file, or wherever PostCSS is configured in your project.
+```bash
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  }
+}
+```
+
+Configure your template paths
+Add the paths to all of your template files in your tailwind.config.js file.
+```bash
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+Add the Tailwind directives to your CSS
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file or sass file.
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
