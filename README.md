@@ -50,7 +50,14 @@ module.exports = {
 
 [ESLint-rules](https://eslint.org/docs/rules/)
 
-Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/eslint-config) folder, [.eslintrc](https://github.com/anriverax/config-JS/blob/main/react-nextJS-config/.eslintrc.js) and [.eslintignore](https://github.com/anriverax/config-JS/blob/main/.eslintignore) files
+Rean and NextJS
+Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/react-nextJS-config/eslint-config) folder and [.eslintrc](https://github.com/anriverax/config-JS/blob/main/react-nextJS-config/.eslintrc.js) file
+
+NodeJS
+Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/nodeJS-onfig/eslint-config) folder
+
+Rean and NextJS
+[.eslintignore](https://github.com/anriverax/config-JS/blob/main/.eslintignore) file
 
 ```bash
 npm install eslint --save-dev
