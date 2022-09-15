@@ -1,4 +1,4 @@
-const getTsConfig = require('./eslint-config/typescript.eslint');
+const getTsConfig = require('../eslint-config/typescript.eslint');
 
 const config = getTsConfig();
 

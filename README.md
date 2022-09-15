@@ -51,7 +51,7 @@ module.exports = {
 
 [ESLint-rules](https://eslint.org/docs/rules/)
 
-Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/eslint-config) folder and [.eslintrc](https://github.com/anriverax/config-JS/blob/main/.eslintrc.js)
+Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/eslint-config) folder, [.eslintrc](https://github.com/anriverax/config-JS/blob/main/react-nextJS-config/.eslintrc.js) file
 ```bash
 npm install eslint --save-dev
 ```
