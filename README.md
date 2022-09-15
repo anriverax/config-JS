@@ -189,3 +189,11 @@ npm install joi
 ```bash
 npm install dotenv --save
 ```
+
+## Babel
+
+[eslint-parser](https://www.npmjs.com/package/@babel/eslint-parser)
+
+```bash
+npm install @babel/core @babel/eslint-parser --save-dev
+```
