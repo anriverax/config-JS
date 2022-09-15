@@ -44,18 +44,18 @@ module.exports = {
 }
 ```
 
-# PROJECTS CONFIGURATION - ReactJS and NextJS (optional)
-
+# PROJECTS CONFIGURATION - ReactJS, NextJS and NodeJS (optional)
 ## ESLint
 [ESLint](https://www.npmjs.com/package/eslint)
 
 [ESLint-rules](https://eslint.org/docs/rules/)
 
 Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/eslint-config) folder and [.eslintrc](https://github.com/anriverax/config-JS/blob/main/.eslintrc.js)
+
 ```bash
 npm install eslint --save-dev
 ```
-
+# PROJECTS CONFIGURATION - ReactJS and NextJS (optional)
 ## ESLint Plugin TypeScript
 
 [ESLint Plugin TypeScript](https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin)
@@ -155,4 +155,37 @@ Add the @tailwind directives for each of Tailwind’s layers to your main CSS fi
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+# NODEJS
+
+Initialize project
+
+```bash
+npm init -y
+```
+
+## Prisma (optional)
+
+[prisma.io](https://www.prisma.io/docs/getting-started/quickstart)
+
+```bash
+npm install prisma --save-dev
+npx prisma init --datasource-provider postgresql
+```
+
+## Joi (optional)
+
+[Joi](https://www.npmjs.com/package/joi)
+
+```bash
+npm install joi
+```
+
+## Dotenv
+
+[Dotenv](https://www.npmjs.com/package/dotenv)
+
+```bash
+npm install dotenv --save
 ```
