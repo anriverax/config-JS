@@ -277,3 +277,17 @@ npm install express --save
 ```bash
 npm install http-errors
 ```
+
+[Wiston 1](https://www.npmjs.com/package/winston)
+
+https://freddyach.wordpress.com/2016/07/05/nodejs-logging-con-winston-morgan/#:~:text=Winston%20es%20una%20librer%C3%ADa%20dise%C3%B1ada,seguimiento%20(al%20igual%20que%20console.
+
+```bash
+npm i winston
+```
+
+[Morgan](https://www.npmjs.com/package/morgan)
+
+```bash
+npm i morgan
+```
