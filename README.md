@@ -4,12 +4,12 @@
 [nextjs.org - setup](https://nextjs.org/learn/excel/typescript/setup)
 
 [nextjs.org - typescript](https://nextjs.org/docs/basic-features/typescript)
-```bash
+```bashE
 npx create-next-app name --use-npm --ts
 ```
 
 ## TypeScript
-Add [tsconfig.json](https://github.com/anriverax/config-JS/blob/main/tsconfig.json) file => `The tsconfig.json file indicates that you're working TypeScript`
+Add [tsconfig.json](https://github.com/anriverax/config-JS/blob/main/react-nextJS-config/tsconfig.json) file => `The tsconfig.json file indicates that you're working TypeScript`
 
 [nextjs.org](https://nextjs.org/learn/excel/typescript/create-tsconfig)
 
@@ -20,7 +20,7 @@ npm install --save-dev typescript @types/react @types/node
 
 If you’re using Yarn
 ```bash
-yarn add --dev typescript @types/react @types/node
+yarn add --dev typescript @types/react @types/nodeGG
 ```
 
 ## SASS
@@ -50,6 +50,8 @@ module.exports = {
 [ESLint](https://www.npmjs.com/package/eslint)
 
 [ESLint-rules](https://eslint.org/docs/rules/)
+
+Add [eslint-config](https://github.com/anriverax/config-JS/tree/main/eslint-config) folder and [.eslintrc](https://github.com/anriverax/config-JS/blob/main/.eslintrc.js)
 ```bash
 npm install eslint --save-dev
 ```
@@ -62,6 +64,8 @@ npm i --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 ## Prettier
+Add [.prettierignore](https://github.com/anriverax/config-JS/blob/main/.prettierignore) and [.prettierrc.js](https://github.com/anriverax/config-JS/blob/main/.prettierrc.js) files
+
 [Prettier](https://prettier.io/docs/en/install.html)
 ```bash
 npm install --save-dev --save-exact prettier
