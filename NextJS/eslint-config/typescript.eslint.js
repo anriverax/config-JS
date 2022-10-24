@@ -8,7 +8,7 @@ module.exports = function getTsConfig() {
   config.parserOptions = {
     ...config.parserOptions,
     tsconfigRootDir: __dirname,
-    project: ['../tsconfig.eslint.json'],
+    project: ['../tsconfig.json'],
     ecmaFeatures: {
       jsx: true
     }
@@ -38,16 +38,14 @@ module.exports = function getTsConfig() {
     '@typescript-eslint/no-unsafe-member-access': 'off', //'warn'
     '@typescript-eslint/prefer-nullish-coalescing': 'off',
     '@typescript-eslint/restrict-template-expressions': 'off',
-    //'@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/init-declarations': ['error', 'always'],
     '@typescript-eslint/no-invalid-this': ['error'],
     '@typescript-eslint/no-shadow': ['error'],
-    '@typescript-eslint/no-unused-vars': ['error'],
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/semi': ['error', 'always'],
     '@typescript-eslint/no-floating-promises': 'off',
     '@typescript-eslint/require-await': 'off',
-
+    '@typescript-eslint/unbound-method': 'off',
     '@typescript-eslint/no-misused-promises': [
       'error',
       {

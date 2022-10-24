@@ -1,4 +1,4 @@
-const getTsConfig = require('../eslint-config/typescript.eslint');
+const getTsConfig = require('./eslint-config/typescript.eslint');
 
 const config = getTsConfig();
 
@@ -23,7 +23,7 @@ config.rules = {
   'react/jsx-equals-spacing': ['error', 'never'],
   'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
   'react/jsx-max-props-per-line': ['error', { when: 'multiline' }],
-  'react/jsx-props-no-spreading': 'warn',
+
   'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],
   'react-hooks/rules-of-hooks': 'off',
   'react-hooks/exhaustive-deps': 'off'

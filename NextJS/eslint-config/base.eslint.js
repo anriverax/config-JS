@@ -29,7 +29,6 @@ module.exports = function getBaseConifg() {
       indent: ['error', 2],
       'no-prototype-builtins': 'off',
       'object-curly-spacing': 'off',
-      'import/named': 2,
       'import/namespace': 'off',
       'require-await': 'off',
       'import/default': 2,
@@ -77,17 +76,10 @@ module.exports = function getBaseConifg() {
           beforeColon: false
         }
       ],
-      'lines-around-comment': [
-        'error',
-        {
-          beforeBlockComment: true
-        }
-      ],
       'no-empty-function': 'error',
       'no-invalid-this': 'error',
       'no-shadow': 'error',
       //'linebreak-style': ['error', 'unix'],
-      //'no-unused-vars': 'error',
       'no-use-before-define': 'error',
       'no-console': 'off',
       'prettier/prettier': ['error', { endOfLine: 'auto' }],

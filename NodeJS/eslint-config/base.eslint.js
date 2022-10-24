@@ -1,4 +1,4 @@
-export default function getBaseConifg() {
+module.exports = function getBaseConifg() {
   return {
     root: true,
     env: {
@@ -99,17 +99,10 @@ export default function getBaseConifg() {
           beforeColon: false
         }
       ],
-      'lines-around-comment': [
-        'error',
-        {
-          beforeBlockComment: true
-        }
-      ],
       'no-empty-function': 'error',
       'no-invalid-this': 'error',
       'no-shadow': 'error',
       // 'linebreak-style': ['error', 'unix'],
-      'no-unused-vars': 'error',
       'no-use-before-define': 'error',
       'no-console': 'off',
       'prettier/prettier': ['error', { endOfLine: 'auto' }],
@@ -125,7 +118,7 @@ export default function getBaseConifg() {
       'prefer-destructuring': [
         'error',
         {
-          array: true,
+          array: false,
           object: true
         },
         {
@@ -220,4 +213,4 @@ export default function getBaseConifg() {
       }
     }
   };
-}
+};

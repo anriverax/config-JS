@@ -5,3 +5,5 @@ dist
 build
 static
 .next
+./eslint-config
+.eslintrc.js

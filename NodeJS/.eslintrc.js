@@ -1,4 +1,4 @@
-const base = require('./eslint-config/base.eslint').default;
+const base = require('./eslint-config/base.eslint');
 
 const config = base();
 
