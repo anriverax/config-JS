@@ -49,6 +49,12 @@ npm install --save-dev @babel/plugin-transform-runtime
 npm install --save @babel/runtime
 ```
 
+[babel preset env](https://babeljs.io/docs/en/babel-preset-env)
+
+```bash
+npm install core-js@3 --save
+```
+
 [prisma.io - (optional)](https://www.prisma.io/docs/getting-started/quickstart)
 
 ```bash
@@ -83,7 +89,10 @@ npm i compression
 ```
 
 [Helmet](https://www.npmjs.com/package/helmet)
+
+```bash
 npm i helmet
+```
 
 [Rimraf](https://www.npmjs.com/package/rimraf)
 
@@ -91,6 +100,48 @@ npm i helmet
 npm i rimraf
 ```
 
+[bcrypt](https://www.npmjs.com/package/bcrypt)
+
+```bash
+npm i bcrypt
+```
+
+[babel present env](https://babeljs.io/docs/en/babel-preset-env)
+
+```bash
+npm install core-js@3 --save
+```
+
+[express async handler](https://www.npmjs.com/package/express-async-handler)
+
+```bash
+npm install --save express-async-handler
+```
+
+[ioredis](https://github.com/luin/ioredis)
+[ioredis](https://hugorocaproyectos.js.org/post/2018-11-01-nodejs-redis/)
+
+```bash
+npm install ioredis redis
+```
+
+[passport jwt](http://www.passportjs.org/packages/passport-jwt/)
+
+```bash
+npm install passport-jwt
+```
+
+[passport](https://www.npmjs.com/package/passport)
+
+```bash
+npm i passport
+```
+
+[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+
+```bash
+npm i jsonwebtoken
+ ```
 ## Projects Configuration - (optional)
 
 [ESLint](https://www.npmjs.com/package/eslint)
